@@ -1,0 +1,22 @@
+.row {
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.head {
+  background-color: #0A57F5;
+  margin-bottom: 5px;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

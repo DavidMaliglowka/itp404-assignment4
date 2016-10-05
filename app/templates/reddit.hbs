@@ -1,0 +1,15 @@
+<div class="head">
+  <h2>Reddit Ember Build</h2>
+</div>
+
+{{#each model as |post|}}
+<div class="row">
+  <h4><a href={{post.url}}>{{post.title}}</a></h4>
+  <p>
+    Score: {{post.score}} | Comments: {{post.comments}} | {{post.archived}}
+  </p>
+</div>
+{{/each}}
+
+
+{{outlet}}
